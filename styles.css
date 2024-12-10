@@ -1,0 +1,268 @@
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 70%;
+    background-color: red;
+      
+  }
+
+  .reasons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin: auto;
+  width: 60%;
+  /* border: 3px solid #73AD21; */
+  padding: 10px;
+}
+.whyChooseUS{
+
+
+}
+.leftFirst{
+    grid-row-start: 1;
+    position: relative;
+    left: 50px;
+}
+
+.rightSecond {
+    grid-row-start: 2;
+    grid-column-start: 3;
+    position: relative;
+    right: 50px;
+    
+}
+
+.leftThird {
+    grid-row-start: 3;
+    position: relative;
+    left: 50px;
+}
+
+.rightFourth {
+    grid-row-start: 4;
+    grid-column-start: 3;
+    position: relative;
+    right: 50px;
+}
+
+
+.newsLetterBox{
+    grid-column-start: 3;
+    position: relative;
+    left: 0px;
+}
+.homeLogo{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100px;
+    width: 100px; 
+    position: relative;
+   
+}
+
+ /* border: 3px solid #73AD21;
+    padding-bottom: 10px;
+    padding-left: 10px; 
+    padding: 10px; */
+
+/* header section */
+.headerNav{
+    background-color: lightblue;
+    width: auto;
+    /* height: 75%;   */
+}
+
+
+
+.sections{
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.sections  .sectionItems{
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.sections .modeButton{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+
+}
+
+#lightModePng{
+  width: 25px;
+  height: 25px;
+}
+
+
+.ourCourses{
+   text-align:center;
+   margin-bottom: 30px;
+
+}
+
+.course{
+    position: relative;
+    /* left: 100px;
+    margin: 20px 0px 0px -10px ;
+     */
+}
+
+h3 {
+    font-family: Arial;
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  /* hero section start */
+
+#hero{
+  max-width: 100%; /* Set a maximum width for the container */
+  overflow: hidden; 
+}
+  
+  
+  h1 {
+
+    transition: transform .2s;  
+    margin: 0 auto;
+  }
+  
+  h1:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+
+   /* hero section ends */
+
+   /* courses section starts here */
+
+  .courseImg{
+
+    transition: transform .2s;  
+    margin: 0 auto;
+  }
+  
+  .courseImg:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+
+  .courseBox{
+    text-align: center;
+  }
+  
+
+
+.buttonContainer{
+   
+    background: #e3ebfe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitButton{
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #2f2f2f;
+    color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.check-box{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    box-shadow: 0 0 12px -2px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    right: -40px;
+    opacity: 0;
+}
+
+.check-box svg{
+    width: 40px;
+    margin: 0px;
+}
+
+svg path{
+    stroke-width: 3;
+    stroke: #fff;
+    stroke-dasharray: 34;
+    stroke-dashoffset: 34;
+    stroke-linecap: round;
+}
+
+.buttonActive{
+    background: #ff2b75;
+    transition: 1s;
+}
+
+.buttonActive .check-box{
+    right: 0;
+    opacity: 1;
+    transition: 1s;
+}
+
+.buttonActive p{
+    margin-right: 125px;
+    transition: 1s;
+}
+
+.buttonActive svg path{
+    stroke-dashoffset: 0;
+    transition: 1s;
+    transition-delay: 1s;
+}
+
+/* banner starts here */
+
+.banner{
+
+  margin-top: 180px;
+}

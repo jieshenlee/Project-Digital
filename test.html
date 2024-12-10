@@ -1,0 +1,68 @@
+<style>
+ 
+    .whychooseus {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+    }
+    
+    .rightSecond {
+        grid-row-start: 2;
+        grid-column-start: 2;
+    }
+    
+    .leftThird {
+        grid-row-start: 3;
+    }
+    
+    .rightFourth {
+        grid-row-start: 4;
+        grid-column-start: 2;
+    }
+
+</style>
+
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <title>Align a logo image to Navabr</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+ 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+ 
+        .navBar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 40px;
+            background-color: rgb(61, 59, 59);
+        }
+ 
+        #navbar img {
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <nav id="navbar">
+        <div class="navBar">
+        <img src=
+"https://media.geeksforgeeks.org/gfg-gg-logo.svg" alt="Logo image">
+</div>
+    </nav>
+</body>
+ 
+</html>
